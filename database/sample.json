@@ -1,0 +1,168 @@
+{
+    "Laptops": [
+      {
+        "name": "Laptop A",
+        "screen_size": "15.6 inches",
+        "ram": "16GB",
+        "gpu": "NVIDIA GTX 1650",
+        "core": "Intel i7",
+        "keyboard_layout": "QWERTY",
+        "price": 1200
+      },
+      {
+        "name": "Laptop B",
+        "screen_size": "13.3 inches",
+        "ram": "8GB",
+        "gpu": "Intel Iris Plus",
+        "core": "Intel i5",
+        "keyboard_layout": "QWERTY",
+        "price": 800
+      },
+      {
+        "name": "Laptop C",
+        "screen_size": "17.3 inches",
+        "ram": "32GB",
+        "gpu": "NVIDIA RTX 3060",
+        "core": "Intel i9",
+        "keyboard_layout": "QWERTY",
+        "price": 2000
+      }
+    ],
+    "Smartphones": [
+      {
+        "name": "Smartphone A",
+        "screen_size": "6.5 inches",
+        "ram": "12GB",
+        "camera": "108MP",
+        "processor": "Snapdragon 888",
+        "battery": "4500mAh",
+        "price": 1000
+      },
+      {
+        "name": "Smartphone B",
+        "screen_size": "6.1 inches",
+        "ram": "8GB",
+        "camera": "48MP",
+        "processor": "Exynos 2100",
+        "battery": "4000mAh",
+        "price": 750
+      },
+      {
+        "name": "Smartphone C",
+        "screen_size": "6.9 inches",
+        "ram": "16GB",
+        "camera": "108MP",
+        "processor": "A15 Bionic",
+        "battery": "5000mAh",
+        "price": 1500
+      }
+    ],
+    "Tablets": [
+      {
+        "name": "Tablet A",
+        "screen_size": "10.2 inches",
+        "ram": "6GB",
+        "storage": "128GB",
+        "processor": "Apple A13 Bionic",
+        "battery": "8000mAh",
+        "price": 450
+      },
+      {
+        "name": "Tablet B",
+        "screen_size": "8.0 inches",
+        "ram": "4GB",
+        "storage": "64GB",
+        "processor": "Qualcomm Snapdragon 662",
+        "battery": "5100mAh",
+        "price": 200
+      },
+      {
+        "name": "Tablet C",
+        "screen_size": "12.9 inches",
+        "ram": "16GB",
+        "storage": "512GB",
+        "processor": "M1 Chip",
+        "battery": "10000mAh",
+        "price": 1200
+      }
+    ],
+    "Smartwatches": [
+      {
+        "name": "Smartwatch A",
+        "screen_size": "1.4 inches",
+        "battery": "14 days",
+        "water_resistant": "50m",
+        "features": ["GPS", "Heart Rate Monitoring", "Sleep Tracking"],
+        "price": 250
+      },
+      {
+        "name": "Smartwatch B",
+        "screen_size": "1.3 inches",
+        "battery": "7 days",
+        "water_resistant": "30m",
+        "features": ["Step Counting", "Message Notifications"],
+        "price": 150
+      },
+      {
+        "name": "Smartwatch C",
+        "screen_size": "1.6 inches",
+        "battery": "20 days",
+        "water_resistant": "100m",
+        "features": ["GPS", "Heart Rate Monitoring", "Blood Oxygen Level", "ECG"],
+        "price": 400
+      }
+    ],
+    "Headphones": [
+      {
+        "name": "Headphone A",
+        "type": "Over-Ear",
+        "battery": "30 hours",
+        "noise_cancellation": "Active Noise Cancellation",
+        "bluetooth": "5.0",
+        "price": 200
+      },
+      {
+        "name": "Headphone B",
+        "type": "In-Ear",
+        "battery": "8 hours",
+        "noise_cancellation": "Passive Noise Isolation",
+        "bluetooth": "4.2",
+        "price": 100
+      },
+      {
+        "name": "Headphone C",
+        "type": "Over-Ear",
+        "battery": "40 hours",
+        "noise_cancellation": "Hybrid Active Noise Cancellation",
+        "bluetooth": "5.0",
+        "price": 300
+      }
+    ],
+    "Monitors": [
+      {
+        "name": "Monitor A",
+        "screen_size": "27 inches",
+        "resolution": "4K",
+        "refresh_rate": "60Hz",
+        "panel_type": "IPS",
+        "price": 400
+      },
+      {
+        "name": "Monitor B",
+        "screen_size": "24 inches",
+        "resolution": "1080p",
+        "refresh_rate": "144Hz",
+        "panel_type": "LED",
+        "price": 150
+      },
+      {
+        "name": "Monitor C",
+        "screen_size": "32 inches",
+        "resolution": "2K",
+        "refresh_rate": "120Hz",
+        "panel_type": "VA",
+        "price": 350
+      }
+    ]
+  }
+  
