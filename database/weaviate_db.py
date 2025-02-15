@@ -1,15 +1,28 @@
 import weaviate
-from weaviate.classes.init import Auth
-import os
+import requests, json
 
-client = weaviate.connect_to_weaviate_cloud(
-    cluster_url=os.getenv("WCD_DEMO_URL"),
-    auth_credentials=Auth.api_key(api_key=os.getenv("WCD_DEMO_RO_KEY")),
-    headers={
-        "X-OpenAI-Api-Key": os.getenv("OPENAI_API_KEY")
-    }
-)
+client = weaviate.connect_to_local()
 
-print(client.is_ready())  # Should print: `True`
+# Load data from the local JSON file
+with open('database/sample.json', 'r') as file:
+    data = json.load(file)
+
+questions = client.collections.get("Question")
+
+with questions.batch.dynamic() as batch:
+    for d in data:
+        batch.add_object({
+            "answer": d["Answer"],
+            "question": d["Question"],
+            "category": d["Category"],
+        })
+        if batch.number_errors > 10:
+            print("Batch import stopped due to excessive errors.")
+            break
+
+failed_objects = questions.batch.failed_objects
+if failed_objects:
+    print(f"Number of failed imports: {len(failed_objects)}")
+    print(f"First failed object: {failed_objects[0]}")
 
 client.close()  # Free up resources
