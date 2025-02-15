@@ -1,0 +1,58 @@
+{
+    "products": [
+      {
+        "name": "Laptop A",
+        "category": "Laptops",
+        "price": 1200,
+        "features": "15.6 inches, 16GB RAM, NVIDIA GTX 1650, Intel i7, QWERTY keyboard"
+      },
+      {
+        "name": "Laptop B",
+        "category": "Laptops",
+        "price": 800,
+        "features": "13.3 inches, 8GB RAM, Intel Iris Plus, Intel i5, QWERTY keyboard"
+      },
+      {
+        "name": "Laptop C",
+        "category": "Laptops",
+        "price": 2000,
+        "features": "17.3 inches, 32GB RAM, NVIDIA RTX 3060, Intel i9, QWERTY keyboard"
+      },
+      {
+        "name": "Smartphone A",
+        "category": "Smartphones",
+        "price": 1000,
+        "features": "6.5 inches, 12GB RAM, 108MP camera, Snapdragon 888, 4500mAh battery"
+      },
+      {
+        "name": "Smartphone B",
+        "category": "Smartphones",
+        "price": 750,
+        "features": "6.1 inches, 8GB RAM, 48MP camera, Exynos 2100, 4000mAh battery"
+      },
+      {
+        "name": "Smartphone C",
+        "category": "Smartphones",
+        "price": 1500,
+        "features": "6.9 inches, 16GB RAM, 108MP camera, A15 Bionic, 5000mAh battery"
+      },
+      {
+        "name": "Tablet A",
+        "category": "Tablets",
+        "price": 450,
+        "features": "10.2 inches, 6GB RAM, 128GB storage, Apple A13 Bionic, 8000mAh battery"
+      },
+      {
+        "name": "Tablet B",
+        "category": "Tablets",
+        "price": 200,
+        "features": "8.0 inches, 4GB RAM, 64GB storage, Qualcomm Snapdragon 662, 5100mAh battery"
+      },
+      {
+        "name": "Tablet C",
+        "category": "Tablets",
+        "price": 1200,
+        "features": "12.9 inches, 16GB RAM, 512GB storage, M1 Chip, 10000mAh battery"
+      }
+    ]
+  }
