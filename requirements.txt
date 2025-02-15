@@ -2,3 +2,5 @@ weaviate-client==4.10.4
 pynput
 openai_realtime_client
 llama_index
+vonage==4.4.0
+fastapi[standard]
